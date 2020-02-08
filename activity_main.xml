@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tribun"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ScrollView
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai Hari Ini, Bandara Ngurah Rai Bali Hentikan Seluruh Penenerbangan dari dan ke China"
+        android:textStyle="bold"
+        android:textColor="	#000000"
+        android:textSize="50dp"
+        />
+    <TextView
+        android:id="@+id/yyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+
+
+        Bandar Udara Internasional I Gusti Ngurah Rai Bali resmi menghentikan sementara operasional penerbangan dengan rute dari dan menuju China. Kebijakan itu berlaku mulai Rabu (5/2/2020), pukul 01.00 WITA.
+Hal ini untuk menindaklanjuti arahan Presiden, Menteri Luar Negeri, serta Menteri Perhubungan RI terkait penghentian sementara operasional penerbangan dari dan ke China daratan akibat virus corona.
+General Manager PT Angkasa Pura I Persero Bandara Internasional I Gusti Ngurah Rai Bali Herry A Y Sikado mengatakan, penghentian penerbangan dilakukan untuk batas waktu yang belum ditentukan
+Status Indonesia dan Bali khususnya saat ini memang aman dari penyebaran virus tersebut. Namun, langkah penghentian sementara diambil untuk menjaga agar Indonesia tetap terbebas dari ancaman wabah virus corona.
+Penerbangan China Southern rute Guangzhou (CAN) – Bali (DPS) dengan nomor penerbangan CZ625 menjadi penerbangan terakhir dari wilayah China daratan yang tiba di Bali.
+Penerbangan ini tiba di Bali pada Selasa, pukul 22.55 WITA."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tess"
+        />
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
